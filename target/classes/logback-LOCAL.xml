@@ -1,0 +1,22 @@
+<included>
+	<property name="PROJECT_ID" value="user-service"/>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[%d{yyyy-MM-dd HH:mm:ss.SSS}] %-5p %c{0} --##-- %m%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="org.dozer.config.GlobalSettings" level="error" />
+
+	<logger name="org.jboss.logging" level="info" />
+	<logger name="org.hibernate" level="error" />
+	<logger name="org.springframework" level="warn" />
+	<logger name="org.dozer" level="warn" />
+	<logger name="org.apache" level="warn" />
+
+
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+	</root>
+</included>

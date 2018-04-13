@@ -1,0 +1,36 @@
+target/
+dealplatform.iml
+.idea/
+
+**/.DS_Store
+**/*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+**/*.jar
+**/*.war
+**/*.ear
+
+.metadata
+.gradle
+bin/
+tmp/
+
+local.properties
+**/.settings/
+**/.loadpath
+
+
+# Eclipse Core
+**/.project
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+**/.target/*
+
+# JDT-specific (Eclipse Java Development Tools)
+**/.classpath
